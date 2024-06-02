@@ -35,9 +35,9 @@
 <%--    ${pageContext.request.contextPath}/login/login.do --%>
 <%--    ${pageContext.request.contextPath}/login/logout.do --%>
     <div class="header_wrap_box">
-        <a href="#">로그인</a>
+        <a href="./member/login">로그인</a>
         <span> / </span>
-        <a href="#">회원가입</a>
+        <a href="./member/signup">회원가입</a>
     </div>
     <%
     }else {

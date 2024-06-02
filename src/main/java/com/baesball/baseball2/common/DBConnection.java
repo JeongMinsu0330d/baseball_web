@@ -11,9 +11,9 @@ public class DBConnection {
     public DBConnection(){
         try{
             String msg ="";
-            String url = "jdbc:mysql://localhost:3306/baseballdb";
-            String user = "root";
-            String pwd = "";
+            String url = "jdbc:mysql://192.168.0.31:3306/baseballdb";
+            String user = "mncvc";
+            String pwd = "wjdalstn12@A";
             Class.forName("com.mysql.cj.jdbc.Driver");
             this.CBaseballDbMaster = DriverManager.getConnection(url,user,pwd);
 
